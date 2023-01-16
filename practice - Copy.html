@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script type="text/javascript">
+           function abc(){
+            alert("Data Resetted Successfully")
+           }
+           function checkkk() {
+            var fn=document.getElementById("fname").value;
+            var ln=document.getElementById("fname").value;
+            var pn=document.getElementById("phnno").value;
+            if (fn=="" && ln==""){
+                    alert("Please ensure that data is entered and is in correct format in all both the boxes.");
+                    return false;
+                }
+                else if(pn.length < 10 ||pn.length > 10  ){
+
+                    alert("Please eneter 10 numbeerrs only.");
+                    return false;
+                }
+                else{
+                    alert("form submitted");
+                    return true; 
+                }
+
+                
+           }
+        </script>
+    </head>
+    <body>
+        <form action="" method="post" onsubmit="return checkkk()"> 
+        First Name:<input type="text" id="fname" value=""> <br> <br>
+        Last Name:<input type="text" id="lname" value=""> <br> <br>
+        Email:<input type="text" name="email" value=""> <br> <br>
+        Phone No:<input type="number" id="phnno" value=""><br> <br>
+        <input type="submit" name="btnsubmit" value="Submit"> 
+        <input type="Reset" name="btnreset" value="Reset" onclick="return abc()">
+    </form>
+    </body>
+</html>

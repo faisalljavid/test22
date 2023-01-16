@@ -1,0 +1,69 @@
+
+.p1{
+    font-family:"Times New Roman";
+}
+
+.p2{
+    font-family:"Arial";
+}
+
+.p3{
+    font-family:"Lucida Console";
+}
+
+.p4{
+    border-style: dotted;
+}
+
+.p5{
+    border-style: dotted dashed solid dotted;
+}
+.p6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.div {
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+    
+}
+.span{
+     color:blue
+}
+
+/*
+body {
+    background-image: url("water.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+
+style {
+    table-layout: auto;
+    border: 1px solid green;
+    background-color: beige;
+    border-radius: 10px;
+    border-style: dashed;
+    }
+}
+
+
+
+table, td, th{
+        border: 1px solid black;
+        background-color: beige;
+        border-radius: 10px;
+        border-style: dashed;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 13px;
+        border-spacing: 50px;
+}
+
+*/
